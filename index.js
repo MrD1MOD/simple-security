@@ -31,10 +31,10 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "Prefix dane lera";
+const prefix = "!";
 const cooldown = new Set()
 const cdtime =5;
-client.login("tokene bot dabne lera");
+client.login("Nzg3MTY1NTYzNDM5OTM5NjA0.X9Q_Dw.m_eyOiMKBPU55UmBOX1IVoLPpx4");
 client.on("ready", async () => {
   console.log(`${client.user.username} Ready .`);
   console.log(`${client.guilds.cache.size} Servers .`);
@@ -61,14 +61,13 @@ if (cooldown.has(message.author.id)) {
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
 
-• Noga Is Here `
+• This Bo MADE BY D1MOD(https://discord.gg/TTReCwSamW)`
 
-[` Invite Bot ](linki bot) - [ Support Server ](https://discord.gg/TTReCwSamW)
-
+`[]
 > Info
 
 > \`about\` - \`serverinfo\` - \`userinfo\`
-> \`invite\` - \`vote\`
+
 
 > Security
 
